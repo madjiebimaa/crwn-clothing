@@ -1,4 +1,4 @@
-import { userReducerTypes } from "./user.types.js";
+import userReducerTypes from "./user.types";
 
 const INITIAL_STATE = {
   currentUser: null,

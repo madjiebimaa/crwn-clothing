@@ -6,10 +6,11 @@ import Header from "./components/header/header.component.jsx";
 import HomePage from "./pages/homepage/homepage.component.jsx";
 import ShopPage from "./pages/shop/shop.component.jsx";
 import SignInAndSignUp from "./pages/sign-in-and-sign-up/sign-in-and-sign-up.component.jsx";
+
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 
 import "./App.css";
-import { setCurrentUser } from "./redux/user/user.actions.js";
+import { setCurrentUser } from "./redux/user/user.actions";
 
 class App extends Component {
   unSubscribeFromAuth = null;

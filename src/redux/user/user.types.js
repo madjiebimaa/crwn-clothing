@@ -1,3 +1,5 @@
-export const userReducerTypes = {
+const userReducerTypes = {
   SET_CURRENT_USER: "SET_CURRENT_USER",
 };
+
+export default userReducerTypes;
