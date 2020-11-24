@@ -23,13 +23,14 @@
       font-weight: 300;
       font-size: 20px;
       padding: 10px 15px;
+      border-radius: 10px;
       overflow: hidden;
       transition: all 0.5s;
 
       &:hover {
         background-color: black;
         color: white;
-        border-radius: 10px;
+
         box-shadow: 0 10px 20px rgba(black, 0.3);
         cursor: pointer;
       }
